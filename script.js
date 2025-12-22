@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function copyToClipboard() {
-  const contractText = "0xcomingsoon";
+  const contractText = "0x0c1b58039c59e7a52dd039f9c9b393d707c1d035";
   navigator.clipboard
     .writeText(contractText)
     .then(function () {
